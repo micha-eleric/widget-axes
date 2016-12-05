@@ -1273,15 +1273,15 @@ cpdefine("inline:com-chilipeppr-widget-xyz", ["chilipeppr_ready", "jquerycookie"
 
             // Setup zeroing G92 - per axis menu
             $('#com-chilipeppr-widget-xyz-x .dropdown-menu a').eq(0).click("x", this.zeroOutAxisG92.bind(this)).prop('href', 'javascript:');
-            $('#com-chilipeppr-widget-xyz-y .dropdown-menu a').eq(0).click("y", this.zeroOutAxisG92.bind(this)).prop('href', 'javascript:');;
-            $('#com-chilipeppr-widget-xyz-z .dropdown-menu a').eq(0).click("z", this.zeroOutAxisG92.bind(this)).prop('href', 'javascript:');;
-            $('#com-chilipeppr-widget-xyz-a .dropdown-menu a').eq(0).click("a", this.zeroOutAxisG92.bind(this)).prop('href', 'javascript:');;
+            $('#com-chilipeppr-widget-xyz-y .dropdown-menu a').eq(0).click("y", this.zeroOutAxisG92.bind(this)).prop('href', 'javascript:');
+            $('#com-chilipeppr-widget-xyz-z .dropdown-menu a').eq(0).click("z", this.zeroOutAxisG92.bind(this)).prop('href', 'javascript:');
+            $('#com-chilipeppr-widget-xyz-a .dropdown-menu a').eq(0).click("a", this.zeroOutAxisG92.bind(this)).prop('href', 'javascript:');
 
             // Setup unzeroing G92 - per axis menu
             $('#com-chilipeppr-widget-xyz-x .dropdown-menu a').eq(1).click("x", this.unzeroOutAxisG92.bind(this)).prop('href', 'javascript:');
-            $('#com-chilipeppr-widget-xyz-y .dropdown-menu a').eq(1).click("y", this.unzeroOutAxisG92.bind(this)).prop('href', 'javascript:');;
-            $('#com-chilipeppr-widget-xyz-z .dropdown-menu a').eq(1).click("z", this.unzeroOutAxisG92.bind(this)).prop('href', 'javascript:');;
-            $('#com-chilipeppr-widget-xyz-a .dropdown-menu a').eq(1).click("a", this.unzeroOutAxisG92.bind(this)).prop('href', 'javascript:');;
+            $('#com-chilipeppr-widget-xyz-y .dropdown-menu a').eq(1).click("y", this.unzeroOutAxisG92.bind(this)).prop('href', 'javascript:');
+            $('#com-chilipeppr-widget-xyz-z .dropdown-menu a').eq(1).click("z", this.unzeroOutAxisG92.bind(this)).prop('href', 'javascript:');
+            $('#com-chilipeppr-widget-xyz-a .dropdown-menu a').eq(1).click("a", this.unzeroOutAxisG92.bind(this)).prop('href', 'javascript:');
 
             // Setup goto Work zero - per axis menu
             $('#com-chilipeppr-widget-xyz-x .dropdown-menu a').eq(2).click("x", this.gotoZero.bind(this)).prop('href', 'javascript:');
@@ -1291,9 +1291,9 @@ cpdefine("inline:com-chilipeppr-widget-xyz", ["chilipeppr_ready", "jquerycookie"
 
             // Setup zeroing G10 (work) - per axis menu
             $('#com-chilipeppr-widget-xyz-x .dropdown-menu a').eq(3).click("mx", this.zeroOutAxisG10.bind(this)).prop('href', 'javascript:');
-            $('#com-chilipeppr-widget-xyz-y .dropdown-menu a').eq(3).click("my", this.zeroOutAxisG10.bind(this)).prop('href', 'javascript:');;
-            $('#com-chilipeppr-widget-xyz-z .dropdown-menu a').eq(3).click("mz", this.zeroOutAxisG10.bind(this)).prop('href', 'javascript:');;
-            $('#com-chilipeppr-widget-xyz-a .dropdown-menu a').eq(3).click("ma", this.zeroOutAxisG10.bind(this)).prop('href', 'javascript:');;
+            $('#com-chilipeppr-widget-xyz-y .dropdown-menu a').eq(3).click("my", this.zeroOutAxisG10.bind(this)).prop('href', 'javascript:');
+            $('#com-chilipeppr-widget-xyz-z .dropdown-menu a').eq(3).click("mz", this.zeroOutAxisG10.bind(this)).prop('href', 'javascript:');
+            $('#com-chilipeppr-widget-xyz-a .dropdown-menu a').eq(3).click("ma", this.zeroOutAxisG10.bind(this)).prop('href', 'javascript:');
 
             // Setup goto Machine zero - per axis menu
             $('#com-chilipeppr-widget-xyz-x .dropdown-menu a').eq(4).click("x", this.gotoZeroM.bind(this)).prop('href', 'javascript:');
@@ -1303,15 +1303,15 @@ cpdefine("inline:com-chilipeppr-widget-xyz", ["chilipeppr_ready", "jquerycookie"
 
             // Setup homing with no limit switches - per axis menu
             $('#com-chilipeppr-widget-xyz-x .dropdown-menu a').eq(5).click("x", this.zeroOutAxisG28.bind(this)).prop('href', 'javascript:');
-            $('#com-chilipeppr-widget-xyz-y .dropdown-menu a').eq(5).click("y", this.zeroOutAxisG28.bind(this)).prop('href', 'javascript:');;
-            $('#com-chilipeppr-widget-xyz-z .dropdown-menu a').eq(5).click("z", this.zeroOutAxisG28.bind(this)).prop('href', 'javascript:');;
-            $('#com-chilipeppr-widget-xyz-a .dropdown-menu a').eq(5).click("a", this.zeroOutAxisG28.bind(this)).prop('href', 'javascript:');;
+            $('#com-chilipeppr-widget-xyz-y .dropdown-menu a').eq(5).click("y", this.zeroOutAxisG28.bind(this)).prop('href', 'javascript:');
+            $('#com-chilipeppr-widget-xyz-z .dropdown-menu a').eq(5).click("z", this.zeroOutAxisG28.bind(this)).prop('href', 'javascript:');
+            $('#com-chilipeppr-widget-xyz-a .dropdown-menu a').eq(5).click("a", this.zeroOutAxisG28.bind(this)).prop('href', 'javascript:');
 
             // Setup homing with limit switches - per axis menu
             $('#com-chilipeppr-widget-xyz-x .dropdown-menu a').eq(6).click("x", this.homeAxis.bind(this)).prop('href', 'javascript:');
-            $('#com-chilipeppr-widget-xyz-y .dropdown-menu a').eq(6).click("y", this.homeAxis.bind(this)).prop('href', 'javascript:');;
-            $('#com-chilipeppr-widget-xyz-z .dropdown-menu a').eq(6).click("z", this.homeAxis.bind(this)).prop('href', 'javascript:');;
-            $('#com-chilipeppr-widget-xyz-a .dropdown-menu a').eq(6).click("a", this.homeAxis.bind(this)).prop('href', 'javascript:');;
+            $('#com-chilipeppr-widget-xyz-y .dropdown-menu a').eq(6).click("y", this.homeAxis.bind(this)).prop('href', 'javascript:');
+            $('#com-chilipeppr-widget-xyz-z .dropdown-menu a').eq(6).click("z", this.homeAxis.bind(this)).prop('href', 'javascript:');
+            $('#com-chilipeppr-widget-xyz-a .dropdown-menu a').eq(6).click("a", this.homeAxis.bind(this)).prop('href', 'javascript:');
 
         },
         publishSend: function(gcode) {
